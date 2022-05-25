@@ -8,11 +8,20 @@
     height: 100%;
     text-align: center;
 }
+.body1 {
+    background-image: url(/proyectocoder/img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .body2 {
-    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-image: url(/proyectocoder/img/8bb37a893d912a01de662ce9019917f0.jpg);
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+}
+.div container-fluid {
+    background-image: url(/proyectocoder/img/esteros-del-ibera.jpg);
 }
 
 .body3 {
@@ -78,6 +87,7 @@ h2 {
 .texto p {
     font-family: cursive;
     font-size: 35px;
+    
 }
 
 footer {
@@ -88,7 +98,7 @@ footer {
 }
 
 .f {
-    background-color: rgba(127, 255, 212, 0.265);
+    background-color: rgba(129, 127, 255, 0.301);
     font-size: 30px;
 }
 
@@ -96,6 +106,7 @@ footer {
     text-align: center;
 
 }
+
 
 @media only screen and (max-width: 768px) {
     * {
