@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="/proyectocoder/style/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body class="body4">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/proyectocoder/index.html">HOME</a>
+            <a class="navbar-brand" href="../index.html">HOME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,36 +23,91 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/proyectocoder/pages/projets.html">PROYECTOS</a>
+                        <a class="nav-link" href="./projets.html">PROYECTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/proyectocoder/pages/contact.html">CONTACTO</a>
+                        <a class="nav-link" href="./contact.html">CONTACTO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/proyectocoder/pages/galeria.html">GALERIA</a>
+                        <a class="nav-link" href="./galeria.html">GALERIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/proyectocoder/pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+                        <a class="nav-link" href="./sobrenosotros.html">SOBRE NOSOTROS</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <header>
-        <h1>
-            GALERIA
-        </h1>
+        <div class="galeria">
+            <h1>
+                GALERIA ARGENTINA
+            </h1>
+            <p>
+                El siguiente video contiene una pequeña muestra de lo que es argentina y su fauna.
+            </p>
+        </div>
+
     </header>
 
     <div class="video">
-        <iframe width="540" height="315" src="/proyectocoder/video/BEAUTIFUL ARGENTINA - DE USHUAIA A LA QUIACA HD.mp4"
+        <iframe width="537" height="302" src="/proyectocoder/video/BEAUTIFUL ARGENTINA - DE USHUAIA A LA QUIACA HD.mp4"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </div>
+    <div>
+        <p class="textogaleria">
+            ¿Qué podemos hacer para cuidar los ríos?
+            No botar basura en las fuentes hídricas.
+            Evitar que las aguas negras lleguen a los ríos.
+            No contaminar los ríos con desechos de las fábricas.
+            No bañarse con jabón en los ríos.
+            No talar árboles.
+            Nunca arrojar el aceite por los sifones de nuestras casas.
+        </p>
+    </div>
 
-    <footer>
+    <div class="carrusel">
+
+        <h1>ALGUNAS DE LAS ESPECIES MAS POPULARES DE ARGENTINA</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/23-03-2016_corrientes_las_localidades_aledaas_a.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/8bb37a893d912a01de662ce9019917f0.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/carpincho_rogerjpg.webp" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <footer class="footergaleria">
         <p>&copy;Agustin Peralta 2022</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

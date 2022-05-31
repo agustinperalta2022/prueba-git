@@ -1,43 +1,112 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: none;
+    box-sizing: border-box;
 }
 
 .contenedor {
     height: 100%;
     text-align: center;
 }
+
 .body1 {
-    background-image: url(/proyectocoder/img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-image: url(../img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.textoindex1 {
+    color: rgba(226, 231, 238);
+
+}
+
+.textoindex2 {
+    color: rgba(226, 231, 238);
 }
 
 .body2 {
-    background-image: url(/proyectocoder/img/8bb37a893d912a01de662ce9019917f0.jpg);
+    background-image: url(../img/8bb37a893d912a01de662ce9019917f0.jpg);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
 }
+
+.galeria {
+    text-align: center;
+    font-size: 35px;
+}
+
 .div container-fluid {
-    background-image: url(/proyectocoder/img/esteros-del-ibera.jpg);
+    background-image: url(../img/esteros-del-ibera.jpg);
 }
 
 .body3 {
-    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-image: url(../img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+
+}
+
+.footercontacto {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contac {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fondo {
+    width: 100%;
+
+
+}
+
+.absolute {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .body4 {
-    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-image: url(../img/iguazu.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
+.textogaleria {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.footergaleria {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.carrusel {
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+
 .body5 {
-    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-image: url(../img/iguazu.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,7 +133,7 @@ nav ul li a {
 .tituloDePagina {
     text-align: center;
     font-family: initial;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 10px;
     border-bottom: 10px;
     border-bottom: solid;
@@ -87,19 +156,26 @@ h2 {
 .texto p {
     font-family: cursive;
     font-size: 35px;
-    
+
 }
 
 footer {
     font-size: 25px;
     grid-area: footer;
+
+}
+
+.copy {
     text-align: center;
-    align-items: center;
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
 }
 
 .f {
-    background-color: rgba(129, 127, 255, 0.301);
+
     font-size: 30px;
+    text-align: center;
 }
 
 .video {
